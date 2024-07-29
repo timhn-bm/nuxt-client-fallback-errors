@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "3.10.3",
+    "vue": "latest"
+  },
+  "engines": {
+    "node": "20.11.1",
+    "yarn": "4.2.1"
+  },
+  "volta": {
+    "node": "20.11.1",
+    "yarn": "4.2.1"
+  },
+  "packageManager": "yarn@4.2.1"
+}
