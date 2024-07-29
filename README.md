@@ -29,9 +29,11 @@ When opening this page
 - Client (after hydration)
    - component A : renders an error message ✔️
    - components B & C : render their defaut template ✔️
+  
 [Screencast from 29-07-2024 17:37:41.webm](https://github.com/user-attachments/assets/24777265-feed-4929-a6e2-818906963ce5)
 
 `/works` page
 You will see that, on SSR, component A has rendered its error message and components B+C render their default template ☑️
 But, **after hydration**, components B+C render an error message even though only A has failed ❎
+
 [Screencast from 29-07-2024 17:37:17.webm](https://github.com/user-attachments/assets/b5f4192c-0597-4176-b3d3-17c923803ba3)
